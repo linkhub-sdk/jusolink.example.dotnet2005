@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jusolink", "Jusolink\Jusolink.csproj", "{EE0B1DFC-A5BF-4711-B771-EE93F5B19315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkhub", "Linkhub\Linkhub.csproj", "{64661336-782E-4776-B4A6-5A5A83036C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jusolink.Example.csharp", "Jusolink.Example.csharp\Jusolink.Example.csharp.csproj", "{3A2169F9-2E43-4D1C-BDA4-36F8A39F1F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE0B1DFC-A5BF-4711-B771-EE93F5B19315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0B1DFC-A5BF-4711-B771-EE93F5B19315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0B1DFC-A5BF-4711-B771-EE93F5B19315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0B1DFC-A5BF-4711-B771-EE93F5B19315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64661336-782E-4776-B4A6-5A5A83036C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64661336-782E-4776-B4A6-5A5A83036C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64661336-782E-4776-B4A6-5A5A83036C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64661336-782E-4776-B4A6-5A5A83036C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2169F9-2E43-4D1C-BDA4-36F8A39F1F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2169F9-2E43-4D1C-BDA4-36F8A39F1F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2169F9-2E43-4D1C-BDA4-36F8A39F1F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2169F9-2E43-4D1C-BDA4-36F8A39F1F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
