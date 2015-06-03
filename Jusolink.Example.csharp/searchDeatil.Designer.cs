@@ -91,10 +91,10 @@ namespace Jusolink.Example.csharp
             this.rbJibun.AutoSize = true;
             this.rbJibun.Location = new System.Drawing.Point(445, 79);
             this.rbJibun.Name = "rbJibun";
-            this.rbJibun.Size = new System.Drawing.Size(123, 16);
+            this.rbJibun.Size = new System.Drawing.Size(111, 16);
             this.rbJibun.TabIndex = 2;
             this.rbJibun.TabStop = true;
-            this.rbJibun.Text = "표준화 도로명주소";
+            this.rbJibun.Text = "표준화 지번주소";
             this.rbJibun.UseVisualStyleBackColor = true;
             this.rbJibun.CheckedChanged += new System.EventHandler(this.rbJibun_CheckedChanged);
             // 
@@ -288,7 +288,7 @@ namespace Jusolink.Example.csharp
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // searchExampleDetail
+            // searchDeatil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -302,7 +302,7 @@ namespace Jusolink.Example.csharp
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "searchExampleDetail";
+            this.Name = "searchDeatil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "주소검색 API SDK for dotnet2005";
             this.groupBox1.ResumeLayout(false);
