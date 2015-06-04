@@ -15,7 +15,7 @@ namespace Jusolink.Example.csharp
         //주소링크 가입시 발급받은 비밀키
         private string SecretKey = "FjaRgAfVUPvSDHTrdd/uw/dt/Cdo3GgSFKyE1+NQ+bc=";
                 
-        public static JusolinkService jusolinkService;
+        private static JusolinkService jusolinkService;
 
         public static string g_zipcode;     // 우편번호
         public static string g_sectionNum;  // 새우편번호

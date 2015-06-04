@@ -10,7 +10,12 @@ namespace Jusolink.Example.csharp
 {
     public partial class searchExample : Form
     {
-        private JusolinkService jusolinkService;
+        //주소링크 가입시 발급받은 링크아이디
+        private string LinkID = "TESTER_JUSO";
+        //주소링크 가입시 발급받은 비밀키
+        private string SecretKey = "FjaRgAfVUPvSDHTrdd/uw/dt/Cdo3GgSFKyE1+NQ+bc=";
+
+        private static JusolinkService jusolinkService;
 
         private int? pageNum = 1;       // 현재 페이지 번호
         private int? totalPage;         // 전체 페이지 수 
@@ -19,7 +24,10 @@ namespace Jusolink.Example.csharp
         public searchExample()
         {
             InitializeComponent();
-            jusolinkService = jusolinkExample.jusolinkService;
+            jusolinkService = jusolinkService;
+
+            // 모듈초기화
+            jusolinkService = new JusolinkService(LinkID, SecretKey);
         }
 
         // 주소검색
